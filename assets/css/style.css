@@ -1,0 +1,70 @@
+.loginpage
+{
+    background-image: url(../image/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loginform
+{
+    margin-top: 20vh;
+    border-radius: 20px;
+}
+.swal2-styled.swal2-confirm
+{
+    background-color:#0069d9;
+}
+.swal2-styled.swal2-cancel
+{
+    background-color:#d90000;
+}
+.swal2-input.custom-input {
+    width: 100%;
+  }
+
+
+.logoimg img{
+    height: 6vh;
+}
+hr{
+    background-color: rgb(0, 0, 0);
+    
+}
+.headtext
+   {
+    font-size: 25px;
+    font-weight: bolder;
+   }
+
+.staffimg
+{
+    height: 20vh;
+    width: 10vw;
+}
+
+.card
+{
+    border-radius: 20px;
+    border-width: 3px;
+    
+    
+}
+.navbtn:hover
+{
+    background-color: rgb(188, 188, 188);
+}
+
+.card:hover{
+    background-color: rgb(220, 220, 220);
+    border-color: #0069d9;
+    
+}
+
+/* media tag */
+@media screen and (max-width: 600px) {
+    .staffimg
+    {
+        width: 40vw;
+    }
+}
