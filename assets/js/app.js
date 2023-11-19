@@ -200,7 +200,7 @@ dbRef.on('value', (snapshot) => {
             <div class="col-6 card-body"><center>
               <h4 class="card-title">${staffdetail.name}</h4>
               <p class="card-text">${staffdetail.mobile}</p>
-              <button class="btn btn-primary" onclick="viewdetail('${staffdetail.uid}')">View</button>
+              <button class="btn btn-primary" onclick="viewdetail('${staffdetail.uid}')"><i class="bi bi-box-arrow-up-right"></i></button>
               <button class="btn btn-primary" onclick="editdetail('${staffdetail.uid}')"><i class="bi bi-pencil-square"></i></button></center>
             </div>
           </div>
@@ -244,7 +244,7 @@ dbRef.child(uid).on('value', (snapshot) => {
             </div>
           <div class="col-md-6">
           <p><strong>Age:</strong> <span class="${staffDetail.age ? '' : 'text-danger'}">${staffDetail.age || 'Not updated'}</span></p>
-          <p><strong>Number of class taker per week:</strong> <span class="${staffDetail.classcount ? '' : 'text-danger'}">${staffDetail.classcount || 'Not updated'}</span></p>
+          <p><strong>Number of class taken per week:</strong> <span class="${staffDetail.classcount ? '' : 'text-danger'}">${staffDetail.classcount || 'Not updated'}</span></p>
           </div>
         </div>
       </div>`,
@@ -612,7 +612,7 @@ dbRef.child(uid).on('value', (snapshot) => {
            <div class="col-6 card-body"><center>
              <h4 class="card-title">${staffdetail.name}</h4>
              <p class="card-text">${staffdetail.mobile}</p>
-             <button class="btn btn-primary" onclick="viewdetail('${staffdetail.uid}')">View</button>
+             <button class="btn btn-primary" onclick="viewdetail('${staffdetail.uid}')"><i class="bi bi-box-arrow-up-right"></i></button>
              <button class="btn btn-primary" onclick="editdetail('${staffdetail.uid}')"><i class="bi bi-pencil-square"></i></button></center>
            </div>
          </div>
